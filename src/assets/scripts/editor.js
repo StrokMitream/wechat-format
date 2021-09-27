@@ -18,11 +18,16 @@ var app = new Vue({
         { label: '无衬线', value: "Roboto, Oxygen, Ubuntu, Cantarell, PingFangSC-light, PingFangTC-light, 'Open Sans', 'Helvetica Neue', sans-serif"}
       ],
       currentFont: "Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
-      currentSize: '16px',
+      currentSize: '14px',
       sizeOption: [
-        { label: '16px', value: '16px', desc: '默认' },
-        { label: '17px', value: '17px', desc: '正常' },
-        { label: '18px', value: '18px', desc: '稍大' }
+        { label: '12px', value: '12px', desc: '更小' },
+        { label: '13px', value: '13px', desc: '稍小' },
+        { label: '14px', value: '14px', desc: '推荐' },
+        { label: '15px', value: '15px', desc: '稍大' },
+        { label: '16px', value: '16px', desc: '更大' }
+        // { label: '16px', value: '16px', desc: '默认' },
+        // { label: '17px', value: '17px', desc: '正常' },
+        // { label: '18px', value: '18px', desc: '稍大' }
       ],
       currentTheme: 'default',
       themeOption: [
