@@ -27,11 +27,13 @@ var app = new Vue({
       currentTheme: 'default',
       themeOption: [
         { label: 'default', value: 'default', author: 'Lyric'},
-        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'}
+        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'},
+        { label: 'md', value: 'md', author: 'md'}
       ],
       styleThemes: {
         default: defaultTheme,
-        lupeng: lupengTheme
+        lupeng: lupengTheme,
+        md: mdTheme
       },
       aboutDialogVisible: false
     }
